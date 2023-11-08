@@ -6,4 +6,4 @@ ytVid = YouTube(link)
 
 ytVid = ytVid.streams.get_by_resolution("720p").download()
 
-print(ytVid.title)
+print("Download Successful")
